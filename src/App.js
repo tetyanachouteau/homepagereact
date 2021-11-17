@@ -1,5 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
+import React from "react";
+import Favori from "./Favori";
 
 function App() {
   return (
@@ -34,9 +36,7 @@ function App() {
         </aside>
         <article>
           <div class="card">
-            <div class="favori">
-              <button>3</button>
-            </div>
+            <Favori></Favori>
             <a href="#" class="picture">
               <img src="anglais.jpeg" alt="" />
             </a>
@@ -47,9 +47,7 @@ function App() {
             <p class="location">Paris 75009</p>
           </div>
           <div class="card">
-            <div class="favori">
-              <button>3</button>
-            </div>
+            <Favori></Favori>
             <a href="#" class="picture">
               <img src="enfant.png" alt="" />
             </a>
@@ -60,9 +58,7 @@ function App() {
             <p class="location">Paris 75012</p>
           </div>
           <div class="card">
-            <div class="favori">
-              <button>3</button>
-            </div>
+            <Favori></Favori>
             <a href="#" class="picture">
               <img src="fee.gif" alt="" />
             </a>
