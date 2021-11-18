@@ -1,4 +1,5 @@
 import React from "react";
+import Favori from "./Favori";
 //import "./Card.css";
 
 function Card() {

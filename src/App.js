@@ -2,7 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import React from "react";
 import Favori from "./Favori";
-
+import Card from "./Card";
 function App() {
   return (
     <body>
