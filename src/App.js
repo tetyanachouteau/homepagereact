@@ -35,39 +35,7 @@ function App() {
           </nav>
         </aside>
         <article>
-          <div class="card">
-            <Favori></Favori>
-            <a href="#" class="picture">
-              <img src="anglais.jpeg" alt="" />
-            </a>
-            <h2>
-              <a href="#">Cours d'anglais</a>
-            </h2>
-            <p class="price">Pour les débutants</p>
-            <p class="location">Paris 75009</p>
-          </div>
-          <div class="card">
-            <Favori></Favori>
-            <a href="#" class="picture">
-              <img src="enfant.png" alt="" />
-            </a>
-            <h2>
-              <a href="#">Baby sitting</a>
-            </h2>
-            <p class="price">WE et mercredi</p>
-            <p class="location">Paris 75012</p>
-          </div>
-          <div class="card">
-            <Favori></Favori>
-            <a href="#" class="picture">
-              <img src="fee.gif" alt="" />
-            </a>
-            <h2>
-              <a href="#">Menage</a>
-            </h2>
-            <p class="price">Lundi et mardi</p>
-            <p class="location">Argenteuil 95100</p>
-          </div>
+          <Card></Card>
         </article>
       </main>
       <footer>

@@ -1,5 +1,5 @@
 import React from "react";
-//import "./Favori.css";
+//import "./Favori.css"; ♡
 
 function Favori() {
   return (
