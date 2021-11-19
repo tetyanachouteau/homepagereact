@@ -39,7 +39,26 @@ function App() {
         </article>
       </main>
       <footer>
-        <p>tati</p>
+        <p>Exercise</p>
+        <div className="App">
+          <h4> Button </h4>
+          <input ref={textInput} type="text" />
+          <button onClick={onOnclickHandler}>Click Here</button>
+          <Button variant="danger" onClick={onOnclickHandler}>
+            Clear here2
+          </Button>
+          {""}
+          <button onClick={onOnclickHandlerClear}>Clear</button>
+          <Button variant="danger" onClick={onOnclickHandler}>
+            Clear here2
+          </Button>
+          {""}
+          <h2>
+            {message.map((element, index) => (
+              <p key={index}>{element}</p>
+            ))}
+          </h2>
+        </div>
       </footer>
     </body>
   );
